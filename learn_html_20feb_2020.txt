@@ -1,0 +1,28 @@
+<head>
+<link href="" rel="">
+<title>
+<meta> //about compatibility 
+</head>
+<body>
+<p></p> //There 
+</body>
+
+CRUD: Create-Read-Update-Delete
+
+Req and Resopnse object:
+
+var request={
+Header:{},
+body:{}
+}
+
+var response={
+ Header:{
+ statusCode:,
+ message:"Fail to load"//own message 
+},
+body:{}
+}
+
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
