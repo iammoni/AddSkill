@@ -1,0 +1,34 @@
+bool is_safe(vector<vector<int>>& grid,int i,int j){
+        int n=grid.size();
+        int col=grid[0].size();
+        if(i<n && j<col && i>=0 && j>=0 && grid[i][j]==1){
+          return 1;  
+        }
+        return 0;
+    }
+    
+    int islandPerimeter(vector<vector<int>>& grid) {
+        int xMove[]={1,-1,0,0};
+        int yMove[]={0,0,1,-1};
+        int peri=0;
+        int n=grid.size();
+        int col=grid[0].size();
+        for(int i=0;i<n;i++){
+            for(int j=0;j<col;j++){
+                if(grid[i][j]==1){
+                    peri+=4;
+                for(int k=0;k<4;k++){
+                      int i_new=i+xMove[k];
+                      int j_new=j+yMove[k];
+                    if(is_safe(grid,i_new,j_new)){
+                        if(grid[i_new][j_new]==1){
+                            peri--;
+                        }
+                    }
+                }
+                    
+                }//End of if
+            }
+        }
+        return peri;
+    }

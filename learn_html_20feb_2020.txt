@@ -26,3 +26,27 @@ body:{}
 
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+undefined is value and datatype as well.
+if(undefined==null) is true
+if datatype is undefiend 
+
+JavaScript is middleman between client and server
+
+switch use strict comparison ===
+
+for(let fruit of fruits){
+console.log(fruit);
+}
+//used for Array
+
+for(let fruit in fruits){
+console.log(fruit);
+}
+//of is used form array of objects
+
+<a href = "# element Id" /> 
+
+
+
+
