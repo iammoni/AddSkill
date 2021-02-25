@@ -1,2 +1,6 @@
 1. i want to show on html document <Talk is cheap Show me the code ~ Linus Torvalds/>. How i do that.
 2. Scrollable 
+3. music nahi kam kar raha ha
+4. Line ko mid se thick and ends se sharp 
+5.link on hover zoom hona chaye
+
